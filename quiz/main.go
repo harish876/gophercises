@@ -84,7 +84,7 @@ func main() {
 		}
 
 		start = strings.TrimSpace(start)
-		if start == "yes" || start == "y" || start == "Yes" {
+		if start == "y" || strings.ToLower(start) == "yes" {
 			startTest = true
 		}
 
